@@ -1,0 +1,64 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num = 0;
+        int i = 0;
+        int j = 0;
+        Swhile (i<=split.length-1&&num!=1){
+            while (j<alph.length-1){
+                if (split[i].compareTo(alph[j]) == 0){
+                    ans = split[i].toUpperCase();
+                    num += 1;
+                }
+                j += 1;
+            }
+            i += 1;
+        }tring ans = null;
+        String name = input.nextLine().toLowerCase();
+        String split[] = name.split("");
+        int avg = input.nextInt();
+        String alph[] ={"a","e","i","o","u"};
+        while (num!=1){
+
+        }
+        System.out.println("Hi "+name+" you were placed in group "+ans);
+        if (avg > 100 ){
+            Character lev = 'X';
+            String com = "Invalid Marks!!, Marks too high.";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }
+        else if (avg >= 80 ){
+            int lev = 1;
+            String com = "Magnificent";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }else if (avg >= 70 ){
+            int lev = 2;
+            String com = "Excellent!!";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }else if (avg >= 60 ){
+            int lev = 3;
+            String com = "Good work!!";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }else if (avg >= 50 ){
+            int lev = 4;
+            String com = "Good!!";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }else if (avg >= 0 ){
+            int lev = 0;
+            String com = "Fail – Try again next Year!!";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }else if(avg<0){
+            Character lev = 'X';
+            String com = "Invalid Marks!!, Negative marks not allowed.";
+            System.out.println("Grade level: "+lev);
+            System.out.println("Comment: "+com);
+        }
+
+    }
+}
